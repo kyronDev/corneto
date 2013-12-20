@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>923D82E1-3ACA-485B-B157-16A5DC48EEB4</string>
+	<key>IDESourceControlProjectName</key>
+	<string>disco</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>D1A4E169-22B1-4072-BB68-76F2CA66481E</key>
+		<string>https://github.com/devkyron/corneto.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>disco/disco.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>D1A4E169-22B1-4072-BB68-76F2CA66481E</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/devkyron/corneto.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>D1A4E169-22B1-4072-BB68-76F2CA66481E</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>D1A4E169-22B1-4072-BB68-76F2CA66481E</string>
+			<key>IDESourceControlWCCName</key>
+			<string>corneto</string>
+		</dict>
+	</array>
+</dict>
+</plist>
