@@ -5,34 +5,34 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>923D82E1-3ACA-485B-B157-16A5DC48EEB4</string>
+	<string>84508C48-BEB7-4F3A-B8B2-B88B21FA3237</string>
 	<key>IDESourceControlProjectName</key>
 	<string>disco</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>D1A4E169-22B1-4072-BB68-76F2CA66481E</key>
-		<string>https://github.com/devkyron/corneto.git</string>
+		<key>B359849C-D818-494F-80CC-567495B59F36</key>
+		<string>https://github.com/kyronDev/corneto.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>disco/disco.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>D1A4E169-22B1-4072-BB68-76F2CA66481E</key>
+		<key>B359849C-D818-494F-80CC-567495B59F36</key>
 		<string>../../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>https://github.com/devkyron/corneto.git</string>
+	<string>https://github.com/kyronDev/corneto.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>110</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>D1A4E169-22B1-4072-BB68-76F2CA66481E</string>
+	<string>B359849C-D818-494F-80CC-567495B59F36</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>D1A4E169-22B1-4072-BB68-76F2CA66481E</string>
+			<string>B359849C-D818-494F-80CC-567495B59F36</string>
 			<key>IDESourceControlWCCName</key>
 			<string>corneto</string>
 		</dict>
