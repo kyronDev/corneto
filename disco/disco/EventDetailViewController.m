@@ -58,9 +58,9 @@
     
     self.eventAddress.text = [[eventDetail valueForKey:@"fields"] valueForKey:@"eventAddress"];
     
-    self.phoneNumber.text = [[eventDetail valueForKey:@"fields"] valueForKey:@"contactNumber"];
+    //self.phoneNumber.text = [[eventDetail valueForKey:@"fields"] valueForKey:@"contactNumber"];
     
-    self.email.text = [[eventDetail valueForKey:@"fields"] valueForKey:@"contactEmail"];
+    //self.email.text = [[eventDetail valueForKey:@"fields"] valueForKey:@"contactEmail"];
     
     NSDateFormatter *dateFormatter = [[NSDateFormatter alloc] init];
     [dateFormatter setDateStyle:NSDateFormatterFullStyle];
@@ -133,6 +133,7 @@
     NSString *eventId = [eventDetail valueForKey:@"pk"];
     RSVP = @"YES";
     NSString *picUrl = [[[NSUserDefaults standardUserDefaults] objectForKey:@"userProfile"] objectForKey:@"picUrl"];
+    NSString *pubUrl = [[[NSUserDefaults standardUserDefaults] objectForKey:@"userProfile"] objectForKey:@"pubUrl"];
     NSString *firstName = [[[NSUserDefaults standardUserDefaults] objectForKey:@"userProfile"] objectForKey:@"firstName"];
     NSString *lastName = [[[NSUserDefaults standardUserDefaults] objectForKey:@"userProfile"] objectForKey:@"lastName"];
     
@@ -141,6 +142,7 @@
                                   @"rsvp": RSVP,
                                   @"choosenTags": choosenTagsNew,
                                   @"picUrl": picUrl,
+                                  @"pubUrl": pubUrl,
                                   @"firstName": firstName,
                                   @"lastName": lastName};
     
@@ -211,6 +213,7 @@
     NSString *eventId = [eventDetail valueForKey:@"pk"];
     RSVP = @"NO";
     NSString *picUrl = [[[NSUserDefaults standardUserDefaults] objectForKey:@"userProfile"] objectForKey:@"picUrl"];
+    NSString *pubUrl = [[[NSUserDefaults standardUserDefaults] objectForKey:@"userProfile"] objectForKey:@"pubUrl"];
     NSString *firstName = [[[NSUserDefaults standardUserDefaults] objectForKey:@"userProfile"] objectForKey:@"firstName"];
     NSString *lastName = [[[NSUserDefaults standardUserDefaults] objectForKey:@"userProfile"] objectForKey:@"lastName"];
     
@@ -218,6 +221,7 @@
                                   @"eventId": eventId,
                                   @"rsvp": RSVP,
                                   @"picUrl": picUrl,
+                                  @"pubUrl": pubUrl,
                                   @"firstName": firstName,
                                   @"lastName": lastName};
     
@@ -247,15 +251,17 @@
     
     NSString *email = [[[NSUserDefaults standardUserDefaults] objectForKey:@"userProfile"] objectForKey:@"email"];
     NSString *eventId = [eventDetail valueForKey:@"pk"];
-    RSVP = @"MAYBE";
     NSString *picUrl = [[[NSUserDefaults standardUserDefaults] objectForKey:@"userProfile"] objectForKey:@"picUrl"];
+    NSString *pubUrl = [[[NSUserDefaults standardUserDefaults] objectForKey:@"userProfile"] objectForKey:@"pubUrl"];
     NSString *firstName = [[[NSUserDefaults standardUserDefaults] objectForKey:@"userProfile"] objectForKey:@"firstName"];
-    NSString *lastName = [[[NSUserDefaults standardUserDefaults] objectForKey:@"user"] objectForKey:@"lastName"];
-    
+    NSString *lastName = [[[NSUserDefaults standardUserDefaults] objectForKey:@"userProfile"] objectForKey:@"lastName"];
+    RSVP = @"MAYBE";
+    NSLog(@"param %@ ** %@ ** %@ ** %@ ** %@ ** %@",email,eventId,RSVP,picUrl,firstName,lastName);
     NSDictionary *attendParam = @{@"email": email,
                                   @"eventId": eventId,
                                   @"rsvp": RSVP,
                                   @"picUrl": picUrl,
+                                  @"pubUrl": pubUrl,
                                   @"firstName": firstName,
                                   @"lastName": lastName};
     

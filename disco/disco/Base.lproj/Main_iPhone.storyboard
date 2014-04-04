@@ -2699,8 +2699,8 @@ AQABAAEAAQAB//+dkAEA//+PgAAE//+dkAEI//+dkAEMUERUAFBTVABQV1QAUFBUAAAAAAEAAAABA
                         <outlet property="saveButton" destination="VAR-XD-MJq" id="G0K-vU-hw6"/>
                         <outlet property="scrollView" destination="g6e-3A-sJR" id="5Xb-lY-ZU4"/>
                         <outlet property="userIndustry" destination="aNc-5g-E9H" id="0or-x8-Zfh"/>
-                        <outlet property="userInterestTags" destination="RFO-M5-1Iy" id="KKV-pV-l85"/>
-                        <outlet property="userIntroduction" destination="Si6-K1-mwN" id="CAA-7M-hqN"/>
+                        <outlet property="userInterestTags" destination="Si6-K1-mwN" id="4cH-8N-XM5"/>
+                        <outlet property="userIntroduction" destination="RFO-M5-1Iy" id="8Ze-Vw-FQY"/>
                         <outlet property="userLocation" destination="wwp-Z4-GUj" id="ZpN-mt-toe"/>
                     </connections>
                 </viewController>
